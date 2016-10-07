@@ -27,6 +27,8 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
+  gem 'pry'
+  gem 'rb-readline'
 end
 
 group :test do
@@ -34,6 +36,8 @@ group :test do
   gem 'minitest-reporters',       '1.1.9'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+  gem 'pry'
+  gem 'rb-readline'
 end
 
 group :production do
